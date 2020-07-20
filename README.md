@@ -42,7 +42,7 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 - A few example test images are included in the `./test_img` folder.
 - Please download trained model
   - Pretrained (trained at voc syntesised dataset that is more general) model from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/18048204r_connect_polyu_hk/EcIHFWTYdTdCq4iQ8PmtlpgBi_FYjgxmpJutr_MEp4jXFw?e=9Z73yy) (OneDrive link)
-  - Fine-tuned at LOL dataset (towards real low-light image enhancement) from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/18048204r_connect_polyu_hk/EbxM3kQKqgpHnxLZD9Kay7QBVN3fkMwMhfxModUUCFyFYg?e=9aSXH1https://connectpolyu-my.sharepoint.com/:u:/g/personal/18048204r_connect_polyu_hk/EbxM3kQKqgpHnxLZD9Kay7QBVN3fkMwMhfxModUUCFyFYg?e=9aSXH1) (OneDrive link)
+  - Fine-tuned at LOL dataset (towards real low-light image enhancement) from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/18048204r_connect_polyu_hk/EbxM3kQKqgpHnxLZD9Kay7QBVN3fkMwMhfxModUUCFyFYg?e=9aSXH1) (OneDrive link)
   - Put them under `./models/`
 - Test the model by:
 ```bash
