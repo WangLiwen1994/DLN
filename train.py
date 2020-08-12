@@ -139,7 +139,7 @@ def main(opt, _run):
     print('===> Build model')
     lighten = DLN(input_dim=3, dim=64)
     lighten = torch.nn.DataParallel(lighten)
-    lighten.load_state_dict(torch.load("DLN_journal.pth", map_location=lambda storage, loc: storage), strict=True)
+    #lighten.load_state_dict(torch.load("DLN_journal.pth", map_location=lambda storage, loc: storage), strict=True)
 
     print('---------- Networks architecture -------------')
     print_network(lighten)
